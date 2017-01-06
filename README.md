@@ -11,7 +11,8 @@ Test:
 
 1. Visit https://www.skyscanner.net/
 2. Click Login -> Register Here
-3. Provide account name/password from Faker factory, install faker via command line by typing: pip install Faker
+3. Provide email/password from Faker factory, install faker via command line by typing: pip install Faker
+4. Assert "Check your inbox" text is present
 
 Faker usage example:
 
@@ -19,11 +20,11 @@ Faker usage example:
 from faker import Faker
 fake = Faker()
 
-username = fake.user_name(*args, **kwargs)
-# 'woodlynn'
+email = fake.free_email()
+# 'hillconor@gmail.com'
 password = fake.password(length=10, special_chars=True, digits=True, upper_case=True, lower_case=True)
 # '7s!QH&Cg@I'
 ```
 
-4. Assert "Check your inbox" text is present
+
 
