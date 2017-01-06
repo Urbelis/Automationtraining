@@ -11,7 +11,7 @@ Test:
 
 1. Visit https://www.skyscanner.net/
 2. Click Login -> Register Here
-3. Provide email/password from Faker factory, install faker via command line by typing: pip install Faker
+3. Provide email/password from Faker(https://faker.readthedocs.io/en/master/), install faker via command line by typing: pip install Faker
 4. Assert "Check your inbox" text is present
 
 Faker usage example:
