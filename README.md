@@ -15,6 +15,7 @@ Test:
 
 Faker usage example:
 
+'''Python
 from faker import Faker
 fake = Faker()
 
@@ -22,6 +23,7 @@ username = fake.user_name(*args, **kwargs)
 # 'woodlynn'
 password = fake.password(length=10, special_chars=True, digits=True, upper_case=True, lower_case=True)
 # '7s!QH&Cg@I'
+'''
 
 4. Assert "Check your inbox" text is present
 
