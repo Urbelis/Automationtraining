@@ -7,7 +7,7 @@
 4. Commit messages should represent changes
 
 
-Test:
+Create tests following Selenium Page Object pattern:
 
 1. Visit https://www.skyscanner.net/
 2. Click Login -> Register Here
